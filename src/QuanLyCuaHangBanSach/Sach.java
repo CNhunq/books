@@ -124,7 +124,8 @@ public abstract class Sach {
     }
     
     public void xuatThongTin() {
-        System.out.printf("│%-20s│%-20s│%-20s│%-20s│%-20s│%-20s│%-20s│%n", maSach, tenSach, loaiSach, doTuoiKhuyenDoc, maNXB, maTacGia, giaThanh, soLuong);
+        System.out.printf("│%-20s│%-20s│%-20s│%-20s│%-20s│%-20s│%-20d│%-20d│%n", 
+            maSach, tenSach, loaiSach, doTuoiKhuyenDoc, maNXB, maTacGia, giaThanh, soLuong);
     }
     
     // public static void main(String[] args) {

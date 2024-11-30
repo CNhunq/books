@@ -41,15 +41,16 @@ public class DanhSachSach implements DanhSach {
         sgiaThanh = "Gia Thanh";
         ssoLuong = "Ton Kho";
 
-        System.out.format("┌%-20s┬%-20s┬%-20s┬%-20s┬%-20s┬%-20s┬%-20s┐%n", 
+        System.out.format("┌%-20s┬%-20s┬%-20s┬%-20s┬%-20s┬%-20s┬%-20s┬%-20s┐%n", 
             Check.repeatStr("─", 20), Check.repeatStr("─", 20), Check.repeatStr("─", 20), 
             Check.repeatStr("─", 20), Check.repeatStr("─", 20), Check.repeatStr("─", 20), 
-            Check.repeatStr("─", 20));
-        System.out.format("│%-20s│%-20s│%-20s│%-20s│%-20s│%-20s│%-20s│%n", smaSach, stenSach, sloaiSach,sdoTuoiKhuyenDoc, smaNXB, smatacGia, sgiaThanh, ssoLuong);
-        System.out.format("├%-20s┼%-20s┼%-20s┼%-20s┼%-20s┼%-20s┼%-20s┼%n",
+            Check.repeatStr("─", 20), Check.repeatStr("─", 20));
+        System.out.format("│%-20s│%-20s│%-20s│%-20s│%-20s│%-20s│%-20s│%-20s│%n", 
+            smaSach, stenSach, sloaiSach, sdoTuoiKhuyenDoc, smaNXB, smatacGia, sgiaThanh, ssoLuong);
+        System.out.format("├%-20s┼%-20s┼%-20s┼%-20s┼%-20s┼%-20s┼%-20s┼%-20s┤%n",
             Check.repeatStr("─", 20), Check.repeatStr("─", 20), Check.repeatStr("─", 20), 
             Check.repeatStr("─", 20), Check.repeatStr("─", 20), Check.repeatStr("─", 20), 
-            Check.repeatStr("─", 20));
+            Check.repeatStr("─", 20), Check.repeatStr("─", 20));
     }
 
     @Override
